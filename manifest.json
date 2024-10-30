@@ -1,0 +1,55 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "scriptApi++",
+        "description": "",
+        "uuid": "6b70c95c-c89b-48b0-a25c-60bed232136b",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            80
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "5207a34a-3662-446b-8ae6-9c77a235c26d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "uuid": "bd2d524f-e002-40ec-88d8-525672deaa3e",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "language": "javascript",
+            "entry": "scripts/index.js"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "jeanmajid"
+        ]
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.16.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.4.0-beta"
+        }
+    ]
+}
