@@ -1,7 +1,7 @@
 import { Event } from "../../models/event";
 import { system, world } from "@minecraft/server";
 
-export const playerJumpEvent = new Event("playerJumpEvent");
+const playerJumpEvent = new Event("playerJumpEvent");
 world.afterEvents.playerJumpEvent = playerJumpEvent;
 
 // still gotta optimize so the interval only runs when needed
